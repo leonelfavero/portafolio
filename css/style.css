@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*    INDEX    */
+
+.contenedorindex{
+    width: 100%;
+    margin: 0 auto;
+    color: #000000;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#sobremiindex{
+    background-color: #072b43;;
+    padding: 55px;
+}
+
+.fototrabajo img{
+    width: 100%;
+}
+
+.fototrabajo a{
+    text-decoration: none;
+    color: #000000;
+    transition: transform 0.3s ease;
+}
+
+.fototrabajo a:hover{
+    color: #033bd4af;
+}
+
+
+.contactoindex{
+    background-color:  #b5c9d0;
+    
+}
+
+
+
+
+/*FONDO DE PAGINA DE ALPHA*/
+.fondoalpha{
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+}
+
+/**MEDIDAS DEL LOGO**/
+body section .logoalpha img{
+    height: 300px;
+    width: 100%;
+}
+
+body section .logoalpha2 img{
+    height: 100%;
+    width: 100%;
+}
+
+#destacadoalpha h1{
+    color: #ffffff;
+}
+
+.carritoalpha img{
+    height: 100%;
+    width: 100%;
+}
+
+#tiendaalpha{
+color: #ffffff;
+}
+
+.fotosproductos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    gap: 20px; /* Espacio entre las imágenes */
+}
+
+.galeria{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; /* Espacio interior de cada elemento */
+    max-width: 300px;
+    margin: auto;
+}
+
+.galeria img{
+    max-width: 300%; /* Para asegurarse de que las imágenes no excedan su contenedor */
+    max-height: 300px;
+    height: auto; /* Para mantener la relación de aspecto */
+    width: auto;
+    border: 4px solid #dd421a; /* Borde alrededor de cada imagen */
+    
+}
+
+.galeria h3{
+    position: absolute;
+
+    color: #ffffff;
+}
+
+#contactoalpha{
+    color: #ffffff;
+}
+
+.formularioalpha{
+    color: #ffffff;
+}
+
+footer {
+    grid-row: 3;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer div {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer div a {
+    color: white;
+}
+
+footer div img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+footer div img:hover {
+    transform: scale(1.2);
+}
+
+
+/*MEDIDAS MEDIAQUERY*/
+/** ADAPTACION PAGINA ALPHA**/
+@media screen and (max-width:770px) {
+    .fotosproductos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
+        gap: 20px; /* Espacio entre las imágenes */
+    }
+}
+@media screen and (max-width:500px) {
+    .fotosproductos{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* 1 columnas iguales */
+        gap: 20px; /* Espacio entre las imágenes */
+    }
+}
+
+/**ADAPTACION PAGINA PRINCIPAL INDEX**/
+
+@media screen and (max-width:390px){
+
+    }
+
