@@ -1,0 +1,59 @@
+/**INDEX**/
+.contenedorindex{
+    width: 100%;
+    margin: 0 auto;
+    color: #000000;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/**FONDO DE PAGINA DE ALPHA**/
+.fondoalpha{
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    header{
+            .logoalpha{
+                        img{
+                            height: 300px;
+                            width: 100%;
+                        }
+            }
+            .logoalpha2{
+                        img{
+                            height: 100%;
+                            width: 100%;
+                        }
+            }
+        }
+}
+/**FONDO DE PAGINA DE GIM**/
+body{
+    .fondogim{
+                background-color: #000000;
+                header{
+                        .logogim1{
+                                    img{
+                                        width: 100%;
+                                    }
+                        }
+                        .logogim2{
+                                    img{
+                                        width: 100%;
+                                    }
+                        }
+                }
+    }
+}
+/**FONDO DE PAGINA NITA**/
+body{
+        .fondonita{
+                    background-color: #fbefef;
+                    width: 100vw;
+                    .fotobaner{
+                                img{
+                                    width: 100vw;
+                                }
+                    }
+        }
+} 

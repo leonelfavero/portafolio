@@ -156,6 +156,12 @@ menu section .formulariogim {
     color: #f8bd01; }
 
 /**FONDO NITA**/
+menu .logonita h1 {
+  color: #e114b5; }
+
+menu #titulosnita h2 {
+  color: #e114b5; }
+
 menu .galeriaunias {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -172,7 +178,10 @@ menu .galeriaunias {
     max-width: 300px;
     margin: auto; }
     menu .galeriaunias .galeriasunias1 img {
-      border: 4px #ffffff; }
+      border: 4px #ffffff;
+      height: 300px;
+      /* Para mantener la relación de aspecto */
+      width: 300px; }
 
 menu .botoninias {
   display: grid;
@@ -183,15 +192,25 @@ menu .botoninias {
     flex-direction: column;
     align-items: center; }
 
-menu .galeriaojos {
+menu #liff .galeriaojos {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   padding: 20px; }
-  menu .galeriaojos .galeriasojos1 {
+  menu #liff .galeriaojos .galeriasojos1 {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center; }
+    menu #liff .galeriaojos .galeriasojos1 h2 {
+      color: #e114b5; }
+    menu #liff .galeriaojos .galeriasojos1 p {
+      color: #ffffff; }
+
+menu #diss h3 {
+  color: #e114b5; }
+
+menu #contactounias h3 {
+  color: #e114b5; }
 
 .footer {
   grid-row: 3;
@@ -319,3 +338,137 @@ menu .galeriaojos {
       width: 100%; }
     body .fondogim header .logogim2 img {
       width: 100%; } }
+
+/**FONDO NITA**/
+@media screen and (max-width: 930px) {
+  menu .logonita h1 {
+    color: #e114b5; }
+  menu #titulosnita h2 {
+    color: #e114b5; }
+  menu .galeriaunias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 3 columnas iguales */
+    gap: 20px;
+    /* Espacio entre las imágenes */ }
+    menu .galeriaunias .galeriasunias1 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      /* Espacio interior de cada elemento */
+      max-width: 300px;
+      margin: auto; }
+      menu .galeriaunias .galeriasunias1 img {
+        border: 4px #ffffff;
+        height: 300px;
+        /* Para mantener la relación de aspecto */
+        width: 300px; }
+  menu .botoninias {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    menu .botoninias .botonunias1 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+  menu #liff .galeriaojos {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    padding: 20px; }
+    menu #liff .galeriaojos .galeriasojos1 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+
+@media screen and (max-width: 730px) {
+  menu .logonita h1 {
+    color: #e114b5; }
+  menu #titulosnita h2 {
+    color: #e114b5; }
+  menu .galeriaunias {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* 3 columnas iguales */
+    gap: 20px;
+    /* Espacio entre las imágenes */ }
+    menu .galeriaunias .galeriasunias1 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      /* Espacio interior de cada elemento */
+      max-width: 300px;
+      margin: auto; }
+      menu .galeriaunias .galeriasunias1 img {
+        border: 4px #ffffff;
+        height: 300px;
+        /* Para mantener la relación de aspecto */
+        width: 300px; }
+  menu .botoninias {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    menu .botoninias .botonunias1 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+  menu #liff .galeriaojos {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    padding: 20px; }
+    menu #liff .galeriaojos .galeriasojos1 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+
+@media screen and (max-width: 620px) {
+  .logonita h1 {
+    color: #e114b5; }
+  #titulosnita h2 {
+    color: #e114b5; }
+  .galeriaunias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; }
+    .galeriaunias .galeriaunias1 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      max-width: 300px;
+      margin: auto; }
+      .galeriaunias .galeriaunias1 img {
+        border: 4px solid #ffffff;
+        /* Añadir 'solid' al borde */
+        height: 300px;
+        width: 300px; }
+  .botoninias {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    .botoninias .botonunias1 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+  #liff .galeriaojos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px; }
+    #liff .galeriaojos .galeriaojos1 {
+      position: relative;
+      display: flex;
+      flex-direction: column; }
+      #liff .galeriaojos .galeriaojos1 img {
+        max-width: 100%;
+        width: 100%; }
+      #liff .galeriaojos .galeriaojos1 h2 {
+        color: #e114b5;
+        /* Estilos para h2 */ }
+      #liff .galeriaojos .galeriaojos1 p {
+        max-width: 100%; } }

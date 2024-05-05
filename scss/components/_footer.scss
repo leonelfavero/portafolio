@@ -1,0 +1,23 @@
+.footer {
+    grid-row: 3; /* Coloca el footer en la tercera fila de la cuadrícula */
+    text-align: center;
+    padding: 10px 0;
+    background-color: #212529; /* Color de fondo para el footer */
+    section {
+        div {
+            display: inline-block;
+            margin: 0 10px;
+            a {
+                color: white;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    transition: transform 0.3s ease;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+    }
+}

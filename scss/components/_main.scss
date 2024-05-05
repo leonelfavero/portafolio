@@ -1,0 +1,233 @@
+/**MENU DEL INDEX**/
+.menuindex{
+
+    #sobremiindex{
+                    background-color: #072b43;;
+                    padding: 55px;
+                    h1{
+
+                    }
+                    p{
+
+                    }
+                }
+    #trabajoindex{
+                    h2{
+
+                    }
+                    .fototrabajo{
+                                
+                                img{
+                                    width: 100%;
+                                }
+                                a{
+                                    text-decoration: none;
+                                    color: #000000;
+                                    transition: transform 0.3s ease;
+                                    &:hover{
+                                            color: #033bd4af;
+                                    }
+                                }
+                    }
+    }
+}
+                
+/** MENU DE ALPHA**/
+menu{
+    #destacadoalpha{
+                    h1{
+                        color: #ffffff;
+                }
+}
+    .carritoalpha{
+                    img{
+                        height: 100%;
+                        width: 100%;
+                    }
+    }
+    #tiendaalpha{
+                    h2{
+                        color: #ffffff;
+                }
+    }
+    .fotosproductos{
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+                    gap: 20px; /* Espacio entre las imágenes */
+                    .galeria{
+                                position: relative;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                padding: 10px; /* Espacio interior de cada elemento */
+                                max-width: 300px;
+                                margin: auto;
+                                img{
+                                    max-width: 300%; /* Para asegurarse de que las imágenes no excedan su contenedor */
+                                    max-height: 300px;
+                                    height: auto; /* Para mantener la relación de aspecto */
+                                    width: auto;
+                                    border: 4px solid #dd421a; /* Borde alrededor de cada imagen */
+                                }
+                                h3{
+                                    position: absolute;
+                                    color: #ffffff;
+                                }
+                    }
+    }
+    .consulta{
+                #contactoalpha{
+                                h3{
+                                    color: #ffffff;
+                                }
+                }
+                .formularioalpha{
+                                    color: #ffffff;
+                }
+    }
+}
+
+/**FONDO DEL GIM**/
+
+menu{
+        #menugim{
+                    h1{
+                        color:#f8bd01;
+                    }
+                    .instalacionesgim{
+                                        display: grid;
+                                        grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+                                        gap: 20px; /* Espacio entre las imágenes */
+                                        .instalacionesfotos{
+                                                            position: relative;
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            align-items: center;
+                                                            padding: 10px; /* Espacio interior de cada elemento */
+                                                            max-width: 300px;
+                                                            margin: auto;
+                                                            img{
+                                                                height: 300px; /* Para mantener la relación de aspecto */
+                                                                width: 300px;
+                                                                border: 4px solid #f8bd01; /* Borde alrededor de cada imagen */
+                                                            }
+                                        }
+                    } 
+                    
+        
+    }
+        #clasesgim{
+                    h2{
+                        color: #f8bd01;
+                }
+        
+    }
+.carousel-caption{
+                    position: relative;
+                    left: 0;
+                    h5{
+                        color: #f8bd01;
+                        }
+                        p{
+                        color: #f8bd01;
+                        }
+
+}
+#ubicaciongim{
+                padding-top: 30px;
+                div{
+                display: flex;
+                justify-content: center;
+                h4{
+                    display: flex;
+                    justify-content: center;
+                    color: #f8bd01;
+                    padding: 20px;
+                }
+            }
+}
+section{
+        h5{
+            color: #f8bd01;
+        }
+        .formulariogim{
+                        color: #f8bd01  ;
+                                            .colorbotongim{
+                                                            input{
+                                                            color: #f8bd01;                        
+                                                        }
+                                            }
+                        }
+    }
+}
+/**FONDO NITA**/
+menu{
+        .logonita{
+                    h1{
+                        color: #e114b5;
+                    }
+        }
+        #titulosnita{
+                        h2{
+                            color: #e114b5;
+                        }
+        }
+        .galeriaunias{
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+                        gap: 20px; /* Espacio entre las imágenes */
+                        .galeriasunias1{
+                                        position: relative;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        padding: 10px; /* Espacio interior de cada elemento */
+                                        max-width: 300px;
+                                        margin: auto;
+                                        img{
+                                            border: 4px#ffffff;
+                                            height: 300px; /* Para mantener la relación de aspecto */
+                                            width: 300px;
+                                        }
+                        }
+        }
+        .botoninias{
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    .botonunias1{
+                                    position: relative;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                    }
+        }
+        #liff{
+            .galeriaojos{
+                            display: grid;
+                            grid-template-columns: repeat(2, 2fr);
+                            padding: 20px;
+                            .galeriasojos1{
+                                                position: relative;
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                h2{
+                                                    color: #e114b5;
+                                                }
+                                                p{
+                                                    color: #ffffff;
+                                                }
+                                }
+            }
+        }
+        #diss{
+                h3{
+                    color: #e114b5;
+                }
+        }
+        #contactounias{
+                        h3{
+                            color: #e114b5;
+                        }
+        }    
+}
